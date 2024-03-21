@@ -30,3 +30,4 @@ if __name__ == "__main__":
 
     #Chama a função 'backup'
     backup(dir_origem, dir_destino)
+    input("Pressione Enter para sair...")
