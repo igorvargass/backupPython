@@ -25,8 +25,8 @@ def backup(dir_origem, dir_destino):
 
 #Exemplo
 if __name__ == "__main__":
-    dir_origem = 'C:\\Users\\igor.rosa\\Downloads\\1'
-    dir_destino = 'C:\\Users\\igor.rosa\\Downloads\\2'
+    dir_origem = input('Digite o diretorio de origem: ')
+    dir_destino = input('Digite o diretorio de destino (Se não existir, não se preocupe, eu crio): ')
 
     #Chama a função 'backup'
     backup(dir_origem, dir_destino)
